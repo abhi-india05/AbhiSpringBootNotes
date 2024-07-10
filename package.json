@@ -1,0 +1,17 @@
+{
+  "name": "joblisting_website",
+  "version": "1.0.0",
+  "description": "This is a reference project. It can be considered as notes or quick guide on how to use 'Spring Boot'. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Notes",
+    "on",
+    "spring",
+    "boot"
+  ],
+  "author": "Abhishek Jayanth Holla",
+  "license": "ISC"
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+   <form method="post" th:action="@{listings/enter}" action="listings/enter">
+    <label for="name" >name</label><br>
+    <input type="text" th:value="${postjob.title}" placeholder="title"/><br>
+
+    <label for="role" >role</label><br>
+    <input type="text" th:value="${postjob.role}" placeholder="role"/><br>
+
+    <label for="company" >company</label><br>
+    <input type="text" th:value="${postjob.company}" placeholder="company"/><br>
+
+    <label for="workexp" >workexp</label><br>
+    <input type="text" th:value="${postjob.workexp}" placeholder="workexp"/><br>
+    <br>
+    <button type="submit">enter</button>
+   </form>
+
+    
+    
+   
+</body>
+</html>
