@@ -21,13 +21,7 @@ public class JobService {
     public Joblisting insertinto(Joblisting job){
        return joblistingrepo.save(job);
     }
-    public Joblisting putrequest(String title){
-        return joblistingrepo.findByTitle(title);
-    }
-    public void putrequestprocess(Joblisting joblisting){
-        if
 
-    }
 }
 
 //here Joblisting is pojo and joblistingrepo is a repository
